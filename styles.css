@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(236, 176, 176);
+}
+
+.wrapper {
+   width: 85%;
+   background-color: green;
+   margin: 0 auto;
+}
+header{
+    display: flex;
+    background-color:yellow;
+}
+.header_logo {
+    width: 40%;
+}
+img{
+    width: 50%;
+}
+
+nav{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;   
+    border: 1px solid;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+
+}
+
+li{
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19px;
+    border-radius:10px 10px;
+    background-color: rgb(157, 235, 224);
+}
