@@ -2,12 +2,14 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-
 .wrapper {
    width: 85%;
    background-color: rgb(71, 69, 69);
    margin: 0 auto;
 }
+
+/* HEADER */
+
 header{
     display: flex;
     background-color:rgb(39, 86, 117);
@@ -17,7 +19,7 @@ header{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 25%;
+    width: 50%;
     font-size:21;
     align-items: center;
     color: white;
@@ -42,6 +44,7 @@ img{
 
 }
 
+/* NAVIGATION */
 nav{
     display: flex;
     flex-direction: row;
@@ -68,6 +71,8 @@ li{
     background-color: rgb(255, 255, 255);
 }
 
+
+/* CARDS */
 h2{
     text-align: center;
     color: white;
@@ -111,6 +116,7 @@ h2{
 }
 
 
+/* FOOTER */
 
 footer{
     display: flex;
@@ -153,4 +159,3 @@ footer{
     margin: 0 auto;
     
 }
-
